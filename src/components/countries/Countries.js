@@ -12,7 +12,7 @@ export const Countries = () => {
     }, [])
     return (
         <div>
-            <h1>hello from countries</h1>
+            <h1>Countries {countries.length}</h1>
             <div className="countries-container">
                 {
                     countries.map((country, index) => <Country
