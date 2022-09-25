@@ -3,3 +3,17 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3px;
 }
+@media (min-width : 577px) and (max-width : 1300px){
+    .countries-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3px;
+    }  
+}
+@media(max-width : 577px){
+    .countries-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+    }
+}
